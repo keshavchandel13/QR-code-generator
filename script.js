@@ -4,7 +4,8 @@ const btn=document.getElementById("btn");
 
 btn.addEventListener('click',()=>{
     const text=document.getElementById("input-area").value;
-    if(text.value==null){
+    console.log(text);
+    if(text==null){
         window.alert("Enter valid text");
     }
     else{
